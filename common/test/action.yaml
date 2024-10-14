@@ -37,4 +37,4 @@ runs:
   - name: version2 TEST
     shell: bash
     run: |
-      cd "hello world"
+      echo "hello world"
