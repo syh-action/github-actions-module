@@ -34,4 +34,7 @@ runs:
     run: |
       cd ${{ inputs.WORKING_DIRECTORY }}
       npm run build
-      
+  - name: version2 TEST
+    shell: bash
+    run: |
+      cd "hello world"
